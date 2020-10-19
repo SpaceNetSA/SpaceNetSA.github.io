@@ -81,12 +81,6 @@ let exercises = {
   },
 };
 
-//retirar
-let array = Object.values(exercises);
-array.forEach((element) => {
-  element.time = 3;
-});
-
 let allExercises = Object.values(exercises);
 
 //Inicia o temporizador
