@@ -9,8 +9,20 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  border: 3px solid green;
+  border: 3px solid black;
+}
+
+#img-exercise {
+  width: 80%;
+  max-width: 600px;
+}
+
+.control-buttons {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
 }
 
 .description {
